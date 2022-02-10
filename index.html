@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>5BM Autumn 2022</title>
+
+    </head>
+    <style>
+    .button-class
+    {
+        width: 280px;height: 100px;background-color: red;color: white;font-size: 30px;
+    }
+    .table-class
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+    </style>
+
+    <body>
+        
+    <p>Hello World</p>
+    <img style="width: 100%;height: 300px;" src="images/ark.png">
+    <table class="table-class" cellspacing="50" border="1" style="border-collapse: collapse">
+        <tr>
+            <td style="text-align: center">1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CSE</td>
+            <td>ME</td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td>IIUC</td>
+            <td>DU</td>
+           
+        </tr>
+        <tr>
+            <td>TE</td>
+            <td colspan="2">102</td>
+        </tr>
+    </table>
+    <div id="content">
+       <input placeholder="Enter Student Name" type="text" name="studentName"><br>
+       <input placeholder="Enter Student Id" type="text" name="studentId"><br>
+       <select name="department" id="">
+           <option disabled selected value="">Select Department</option>
+            <option>CSE</option>
+            <option>ME</option>
+            <option>EEE</option>
+
+       </select><br>
+       <button class="button-class" name="formSubmit" value="Submit">Submit</button> 
+    </div>
+   
+</body>
+</html>
